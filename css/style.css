@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    padding: 0;
+    background: url('../images/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+.container{
+    padding-bottom: 3rem;
+    height: auto;
+}
+
+.navbar{
+    padding-top: 2rem;
+}
+
+.navbar a, .navbar ul{
+    color: #fff !important;
+}
+
+#landingpage{
+    margin-top: 30vh;
+    text-align: center;
+    z-index: 8;
+    position: block;
+}
+#landingpage h3{
+    text-transform: capitalize;
+    left: 0;
+}
+
+hr{
+    border: 1px solid #cecece;
+    width: 30%;
+}
+.landing-name h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    
+}
+
+/* media queries */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .landing-name h1{
+        font-size: 3rem;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px and min-width 577px) { 
+    .landing-name h1{
+        font-size: 4rem;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
